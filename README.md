@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# To get started
+
+`echo "REACT_APP_FIREBASE_API=YOR_FIREBASE_API" >> .env`
 
 ## Available Scripts
 
