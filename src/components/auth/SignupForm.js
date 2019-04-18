@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { reduxForm, Field } from "redux-form";
 
-class SigninForm extends Component {
+class SignupForm extends Component {
   render() {
     return (
       <div>
-        <h2>Sign In</h2>
+        <h2>Sign Up</h2>
         <form>
           <div>
             <label>Email: </label>
@@ -26,4 +26,4 @@ class SigninForm extends Component {
 
 export default reduxForm({
   form: "auth"
-})(SigninForm);
+})(SignupForm);
