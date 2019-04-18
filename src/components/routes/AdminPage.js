@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SignupForm from "../auth/SignupForm";
+import SignupForm from "../auth/SignUpForm";
 
 export default class AdminPage extends Component {
   render() {
